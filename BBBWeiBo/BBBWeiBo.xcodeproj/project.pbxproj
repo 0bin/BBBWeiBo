@@ -9,12 +9,17 @@
 /* Begin PBXBuildFile section */
 		243EEDA11D97FAAE00E2711E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDA01D97FAAE00E2711E /* main.m */; };
 		243EEDA41D97FAAE00E2711E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDA31D97FAAE00E2711E /* AppDelegate.m */; };
-		243EEDA71D97FAAE00E2711E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDA61D97FAAE00E2711E /* ViewController.m */; };
-		243EEDAA1D97FAAE00E2711E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243EEDA81D97FAAE00E2711E /* Main.storyboard */; };
 		243EEDAC1D97FAAE00E2711E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 243EEDAB1D97FAAE00E2711E /* Assets.xcassets */; };
-		243EEDAF1D97FAAE00E2711E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 243EEDAD1D97FAAE00E2711E /* LaunchScreen.storyboard */; };
 		243EEDBA1D97FAAE00E2711E /* BBBWeiBoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDB91D97FAAE00E2711E /* BBBWeiBoTests.m */; };
 		243EEDC51D97FAAE00E2711E /* BBBWeiBoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDC41D97FAAE00E2711E /* BBBWeiBoUITests.m */; };
+		243EEDD41D97FFA300E2711E /* BBBTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDD31D97FFA300E2711E /* BBBTabBarController.m */; };
+		243EEDD71D98022000E2711E /* BBBNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDD61D98022000E2711E /* BBBNavigationController.m */; };
+		243EEDDA1D9804D900E2711E /* BBBOneController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDD91D9804D900E2711E /* BBBOneController.m */; };
+		243EEDDD1D9807FD00E2711E /* BBBTwoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDDC1D9807FD00E2711E /* BBBTwoController.m */; };
+		243EEDE01D98081100E2711E /* BBBThreeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDDF1D98081100E2711E /* BBBThreeController.m */; };
+		243EEDE31D98082700E2711E /* BBBFourController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDE21D98082700E2711E /* BBBFourController.m */; };
+		243EEDE61D98083900E2711E /* BBBFiveController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDE51D98083900E2711E /* BBBFiveController.m */; };
+		243EEDEC1D980DAD00E2711E /* BBBPlusController.m in Sources */ = {isa = PBXBuildFile; fileRef = 243EEDEB1D980DAD00E2711E /* BBBPlusController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +44,7 @@
 		243EEDA01D97FAAE00E2711E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		243EEDA21D97FAAE00E2711E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		243EEDA31D97FAAE00E2711E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		243EEDA51D97FAAE00E2711E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		243EEDA61D97FAAE00E2711E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		243EEDA91D97FAAE00E2711E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		243EEDAB1D97FAAE00E2711E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		243EEDAE1D97FAAE00E2711E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		243EEDB01D97FAAE00E2711E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		243EEDB51D97FAAE00E2711E /* BBBWeiBoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBBWeiBoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		243EEDB91D97FAAE00E2711E /* BBBWeiBoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBBWeiBoTests.m; sourceTree = "<group>"; };
@@ -51,6 +52,22 @@
 		243EEDC01D97FAAE00E2711E /* BBBWeiBoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BBBWeiBoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		243EEDC41D97FAAE00E2711E /* BBBWeiBoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BBBWeiBoUITests.m; sourceTree = "<group>"; };
 		243EEDC61D97FAAE00E2711E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		243EEDD21D97FFA300E2711E /* BBBTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBTabBarController.h; sourceTree = "<group>"; };
+		243EEDD31D97FFA300E2711E /* BBBTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBTabBarController.m; sourceTree = "<group>"; };
+		243EEDD51D98022000E2711E /* BBBNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBNavigationController.h; sourceTree = "<group>"; };
+		243EEDD61D98022000E2711E /* BBBNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBNavigationController.m; sourceTree = "<group>"; };
+		243EEDD81D9804D900E2711E /* BBBOneController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBOneController.h; sourceTree = "<group>"; };
+		243EEDD91D9804D900E2711E /* BBBOneController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBOneController.m; sourceTree = "<group>"; };
+		243EEDDB1D9807FD00E2711E /* BBBTwoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBTwoController.h; sourceTree = "<group>"; };
+		243EEDDC1D9807FD00E2711E /* BBBTwoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBTwoController.m; sourceTree = "<group>"; };
+		243EEDDE1D98081100E2711E /* BBBThreeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBBThreeController.h; path = ../BBBThreeController.h; sourceTree = "<group>"; };
+		243EEDDF1D98081100E2711E /* BBBThreeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBBThreeController.m; path = ../BBBThreeController.m; sourceTree = "<group>"; };
+		243EEDE11D98082700E2711E /* BBBFourController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBFourController.h; sourceTree = "<group>"; };
+		243EEDE21D98082700E2711E /* BBBFourController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBFourController.m; sourceTree = "<group>"; };
+		243EEDE41D98083900E2711E /* BBBFiveController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BBBFiveController.h; path = ../BBBFiveController.h; sourceTree = "<group>"; };
+		243EEDE51D98083900E2711E /* BBBFiveController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BBBFiveController.m; path = ../BBBFiveController.m; sourceTree = "<group>"; };
+		243EEDEA1D980DAD00E2711E /* BBBPlusController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BBBPlusController.h; sourceTree = "<group>"; };
+		243EEDEB1D980DAD00E2711E /* BBBPlusController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BBBPlusController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,12 +120,22 @@
 			children = (
 				243EEDA21D97FAAE00E2711E /* AppDelegate.h */,
 				243EEDA31D97FAAE00E2711E /* AppDelegate.m */,
-				243EEDA51D97FAAE00E2711E /* ViewController.h */,
-				243EEDA61D97FAAE00E2711E /* ViewController.m */,
-				243EEDA81D97FAAE00E2711E /* Main.storyboard */,
-				243EEDAB1D97FAAE00E2711E /* Assets.xcassets */,
-				243EEDAD1D97FAAE00E2711E /* LaunchScreen.storyboard */,
-				243EEDB01D97FAAE00E2711E /* Info.plist */,
+				243EEDD21D97FFA300E2711E /* BBBTabBarController.h */,
+				243EEDD31D97FFA300E2711E /* BBBTabBarController.m */,
+				243EEDD51D98022000E2711E /* BBBNavigationController.h */,
+				243EEDD61D98022000E2711E /* BBBNavigationController.m */,
+				243EEDD81D9804D900E2711E /* BBBOneController.h */,
+				243EEDD91D9804D900E2711E /* BBBOneController.m */,
+				243EEDDB1D9807FD00E2711E /* BBBTwoController.h */,
+				243EEDDC1D9807FD00E2711E /* BBBTwoController.m */,
+				243EEDDE1D98081100E2711E /* BBBThreeController.h */,
+				243EEDDF1D98081100E2711E /* BBBThreeController.m */,
+				243EEDE11D98082700E2711E /* BBBFourController.h */,
+				243EEDE21D98082700E2711E /* BBBFourController.m */,
+				243EEDE41D98083900E2711E /* BBBFiveController.h */,
+				243EEDE51D98083900E2711E /* BBBFiveController.m */,
+				243EEDEA1D980DAD00E2711E /* BBBPlusController.h */,
+				243EEDEB1D980DAD00E2711E /* BBBPlusController.m */,
 				243EED9F1D97FAAE00E2711E /* Supporting Files */,
 			);
 			path = BBBWeiBo;
@@ -117,6 +144,8 @@
 		243EED9F1D97FAAE00E2711E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				243EEDAB1D97FAAE00E2711E /* Assets.xcassets */,
+				243EEDB01D97FAAE00E2711E /* Info.plist */,
 				243EEDA01D97FAAE00E2711E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -246,9 +275,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243EEDAF1D97FAAE00E2711E /* LaunchScreen.storyboard in Resources */,
 				243EEDAC1D97FAAE00E2711E /* Assets.xcassets in Resources */,
-				243EEDAA1D97FAAE00E2711E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,8 +300,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				243EEDA71D97FAAE00E2711E /* ViewController.m in Sources */,
+				243EEDD41D97FFA300E2711E /* BBBTabBarController.m in Sources */,
+				243EEDE61D98083900E2711E /* BBBFiveController.m in Sources */,
+				243EEDDD1D9807FD00E2711E /* BBBTwoController.m in Sources */,
+				243EEDE01D98081100E2711E /* BBBThreeController.m in Sources */,
+				243EEDDA1D9804D900E2711E /* BBBOneController.m in Sources */,
+				243EEDE31D98082700E2711E /* BBBFourController.m in Sources */,
+				243EEDEC1D980DAD00E2711E /* BBBPlusController.m in Sources */,
 				243EEDA41D97FAAE00E2711E /* AppDelegate.m in Sources */,
+				243EEDD71D98022000E2711E /* BBBNavigationController.m in Sources */,
 				243EEDA11D97FAAE00E2711E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -309,25 +343,6 @@
 			targetProxy = 243EEDC11D97FAAE00E2711E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		243EEDA81D97FAAE00E2711E /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				243EEDA91D97FAAE00E2711E /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		243EEDAD1D97FAAE00E2711E /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				243EEDAE1D97FAAE00E2711E /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		243EEDC71D97FAAE00E2711E /* Debug */ = {
@@ -422,7 +437,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BBBWeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LB.BBBWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -433,7 +450,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				INFOPLIST_FILE = BBBWeiBo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = LB.BBBWeiBo;
 				PRODUCT_NAME = "$(TARGET_NAME)";

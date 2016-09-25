@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  BBBOneController.h
 //  BBBWeiBo
 //
 //  Created by LinBin on 16/9/25.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface BBBOneController : UIViewController
 
 @end
-
