@@ -1,22 +1,23 @@
 //
-//  BBBPlusController.m
+//  BBBOneController.m
 //  BBBWeiBo
 //
 //  Created by LinBin on 16/9/25.
 //  Copyright © 2016年 LinBin. All rights reserved.
 //
 
-#import "BBBPlusController.h"
+#import "BBBOneController.h"
 
-@interface BBBPlusController ()
+@interface BBBOneController ()
 
 @end
 
-@implementation BBBPlusController
+@implementation BBBOneController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = [UIColor whiteColor];
 }
 
 - (void)didReceiveMemoryWarning {
